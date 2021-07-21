@@ -5,6 +5,7 @@ import styles from "../styles/style";
 export default function Headers(props) {
   return (
     <View style={styles.container}>
+      {props?.leftButton}
       <Text>{props.title}</Text>
     </View>
   );
